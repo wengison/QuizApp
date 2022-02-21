@@ -1,6 +1,6 @@
-//Question database:   // kolik?
-//Dostat score from localstorage
-//set lifes = 3; ?
+//Question database:   // 
+//Dostat score z localstorage
+//let lifes = 3; 
 // class Game
     // function: play (start the game, load all stuff)
     // function: next()
@@ -271,11 +271,9 @@ let scoreDisplay = document.querySelector('#score');
 
 // funkce pro ukladani do localStorage
 
-// serazaeni cisel v answeru r.131
-
 // let home = new Home('20:00', 42, 'Honza'); - propsat aktualni cas, best score, uzivatele
 
 // neopakovani stejnych otazek 
 
-//..//..//  Treninkový on-line test pro předmět PVP
+//..//..//  Treninkový on-line test pro předmět PVP = true; :)
 
