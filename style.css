@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(107, 107, 151, 0.9), rgba(0, 0, 0, 0.9));
+}
+
+.main-quiz-box {
+    width: 95vh;
+    height: 55vh;
+    padding-top: 10vh;
+    background-color: rgba(199, 199, 199, .99);
+    border: solid white 2px;
+    border-radius: 7px;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    top: 100;
+    bottom: 420;
+    margin-left: auto; 
+    margin-right: auto; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    box-shadow: 0 0 3px #ccc;
+    
+}
+
+.option-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(245, 0, 0, 0.5); */
+    border: solid 2px rgba(255, 255, 255, 0.4);
+    transition: .1s;
+    padding: 5px;
+}
+.option-box-clicked {
+    /* background-color: rgba(255, 255, 255, 0.7); */
+    background-color: rgba(127, 233, 127, .4) ;
+    border: solid 2px rgba(255, 255, 255, 0.4);
+    border-radius: 7px;
+    cursor: pointer;
+}
+.option-box:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: solid 2px rgba(255, 255, 255, 0.4);
+    border-radius: 7px;
+    cursor: pointer;
+}
+.option-box ul {
+    list-style: none;
+}
+.extra {
+    background-color: whitesmoke;
+    grid-column: 1 / 3;
+    border-bottom: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.question {
+    font-size: 2.05em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ---------------------------------------- */
+.panels-box {
+    width: 95vh;
+    height: 10vh;
+    border: solid white 2px;
+    border-radius: 7px;
+    position: absolute;
+    top: 100;
+    bottom: 420;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(2, 2, 2, 0.95);
+
+}
+
+.panels {
+    padding: 10px;
+    width: 20vh;
+}
+.panel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.panel button {
+    cursor: pointer;
+    border: white solid 1px;
+    background-color: rgba(2, 2, 2, 0.95);
+    color: white;
+    border-radius: 7px;
+    transition: .05s;
+}
+.panel button:hover {
+    border: white solid 1px;
+    background-color: rgba(245, 245, 245, 0.95);
+    color: black;
+}
+.lower-panel button {
+    width: 49%;
+    margin: 2px;
+}
+
+#submit {
+    width: 100%;
+}
+
+#score-box {
+    width: 100%;
+    height: 5px;
+    position: relative;
+}
+
+#score {
+    position: absolute;
+    font-size: 1.35em;
+    top: 10px;
+    right: 20px;
+    color: white;
+}
