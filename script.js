@@ -273,7 +273,7 @@ let scoreDisplay = document.querySelector('#score');
 
 // let home = new Home('20:00', 42, 'Honza'); - propsat aktualni cas, best score, uzivatele
 
-// neopakovani stejnych otazek 
+// neopakovani stejnych otazek, jestiže funguje random režim otázek
 
 //..//..//  Treninkový on-line test pro předmět PVP = true; :)
 
